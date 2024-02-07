@@ -46,7 +46,7 @@ export default function Home() {
                   {files.map(file => (
                     <Box className={`flex justify-between items-center`}>
                       <Box className={`flex items-center my-2`}>
-                        <InsertDriveFile className={`text-[${COLORS.secondaryAmber}]`} />
+                        <InsertDriveFile className={`text-[text-[#FF9A1E]]`} />
                         <Typography className={`text-[${COLORS.textGray}] text-[12px] ml-2`}>{file?.path}</Typography>
                       </Box>
 

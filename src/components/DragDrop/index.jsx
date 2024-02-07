@@ -17,7 +17,7 @@ const DragDrop = ({ files, setFiles }) => {
     <Box className='container cursor-pointer items-center flex flex-col rounded-lg border border-solid p-3 border-gray-300'>
       <Box {...getRootProps({className: 'border-dashed border-gray-300 rounded border-2 flex flex-col w-full justify-center items-center px-4 py-6'})}>
         <input {...getInputProps()} />
-        <Description className={`text-[${COLORS.secondaryAmber}] mb-4`} />
+        <Description className={`text-[#FF9A1E] mb-4`} />
 
         <Typography className='text-[#697177]'>
           Drag & Drop Here Or <b className={`text-[${COLORS.primaryBlue}] font-bold`}>Browse</b>
