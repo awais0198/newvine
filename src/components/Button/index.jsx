@@ -8,7 +8,7 @@ const CustomButton = ({ variant, text, onClickHandler, isDisabled, btnSize, cust
     variant={variant ?? 'contained'}
     disabled={isDisabled ?? false}
     size={btnSize ?? 'small'}
-    className={variant === 'contained' ? `bg-[${COLORS.primaryBlue}] text-[#E1F6FF] px-10 mt-3 ${customStyles}` : `text-[${COLORS.secondaryAmber}] border-solid hover:border-2 hover:border-amber-500 border-2 border-amber-500 px-10 mt-3  ${customStyles}`}
+    className={variant === 'contained' ? `bg-[#041D59] text-[#E1F6FF] px-10 mt-3 ${customStyles}` : `text-[${COLORS.secondaryAmber}] border-solid hover:border-2 hover:border-amber-500 border-2 border-amber-500 px-10 mt-3  ${customStyles}`}
     disableElevation
   >
     {text}
